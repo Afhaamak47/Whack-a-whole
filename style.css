@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(to right, #e2db9c, #f4ee3f);
+}
+
+.container {
+  height: 500px;
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.game-board {
+  height: 300px;
+  width: 800px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.hole {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+#hole1 {
+  position: absolute;
+  top: 120px;
+  left: 320px;
+}
+#hole2 {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
+#hole3 {
+  position: absolute;
+  top: 280px;
+  left: 600px;
+}
+#hole4 {
+  position: absolute;
+  top: 120px;
+  left: 600px;
+}
+#hole5 {
+  position: absolute;
+  top: 200px;
+  left: 720px;
+}
+#hole6 {
+  position: absolute;
+  top: 280px;
+  left: 320px;
+}
+#hole7 {
+  position: absolute;
+  top: 320px;
+  left: 720px;
+}
+#hole8 {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+}
+#hole9 {
+  position: absolute;
+  top: 250px;
+  left: 790px;
+}
+#hole10 {
+  position: absolute;
+  top: 120px;
+  left: 790px;
+}
+.score {
+  font-family: "Courier New", Courier, monospace;
+  color: #14fd07;
+  font-size: 20px;
+  font-weight: 600;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  outline: none;
+}
+.class {
+  background: url("download.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}
